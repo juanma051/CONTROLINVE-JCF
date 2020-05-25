@@ -1,0 +1,190 @@
+@font-face {
+font-family: 'Bahamas';
+src: url('fonts/Bahamas.ttf');
+}
+
+nav.navbar{
+	background-color: #56F541;
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#000000), to(#FFFFFF))
+}
+
+.btn{
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#000000), to(#FFFFFF))
+}
+
+
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar-default .navbar-nav li.color a.blanco {
+	color: #fff;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;	
+}
+div#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+div#content {
+	padding-bottom: 151px;
+}
+form#frmdelete {
+	display: inline;
+}
+.margin  {
+	width: 200px;
+	margin: 10px;
+}
+.sinpa {
+	padding: 0px;
+}
+.padding {
+	padding: 10px;
+}
+.padding1 {
+	padding: 0px 180px;
+}
+.marginb {
+	margin-left: 32px;
+}
+.marginb2 {
+	margin-left: 38px;
+}
+input {
+	text-align: center;
+}
+.center{
+	text-align: center;
+	line-height: 50px;
+}
+.center1 {
+	text-align: center;
+}
+.vertical {
+	margin: 0px 50px;
+}
+.td {
+	text-align: center;
+	text-transform: uppercase;
+
+}
+div.sin{
+	padding-left: 0px;
+	
+}
+div.son{
+	padding-right: 0px;
+}
+.align	{
+	display: inline-block;
+}
+.line {
+	display: inline;
+}
+.table tr td.line-height {
+	line-height: 45px;
+}
+	
+.un {
+	margin-top: 5px;
+}
+input.l {
+	width: 65px;
+}
+td,th {
+	width: 200px;
+}
+
+div.align:nth-last-child(1) {
+margin: 0px;
+}
+div.align:nth-last-child(3) {
+margin: 0px;
+}
+.vidrio {
+	width: 520px;
+	height: 250px;
+}
+div.panel-body{
+	padding: 20px 72px;
+}
+img {
+	margin: 0px;
+}
+.img {
+	position: relative;
+	left: 485px;
+}
+.img2 {
+	position: absolute;
+	left: 420px;
+}
+.p {
+	font-size: 11px;
+	text-align: justify;
+}
+a.but {
+	margin-bottom: 5px;
+	margin-left: 15px;
+	width: 130px;
+}
+.pie {
+	position: fixed;
+	margin-top: 20px;
+}
+.mar {
+	width: 100%;
+
+}
+.bahama {
+	font-family: 'Bahamas';
+}
+.footer {
+	margin-top: 30px;
+	width: 100%;
+	height: 150px;
+	padding-top: 25px;
+	background-color: #EEEEEE;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+}
+article.foot {
+	margin: 0px 150px;
+	color: #5F6062;
+}
+.footPosition {
+	text-align: center;
+	font-size: 2rem;
+}
+td.initial {
+	text-transform: lowercase;
+}
+.go {
+  top:60px;
+  width: 150px;
+  height: 50px;
+  right:10px;
+  box-shadow: 4px 4px 20px #C0C0C0;
+  position: fixed;
+}
+body ,
+.tb1,
+#bsref {
+	z-index: 1;
+}
+.flota {
+	border: 1px solid #000;
+	position: absolute;
+	top: 0px;
+	box-shadow: 4px 5px 20px #c0c0c0;
+}
+
+.blanco {
+	color: #fff;
+}
+
