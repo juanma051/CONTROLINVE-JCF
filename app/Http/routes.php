@@ -14,6 +14,12 @@
 Route::get('/', 'Auth\AuthController@getLogin');
 Route::get('/home', 'HomeController@index');
 
+Route::group(['middleware' => 'Usuario'], function () {
+	// USUARIOS
+	Route::resource('/Usuarios','UsuarioController');
+	Route::get('/buscar_usuario','UsuarioController@buscar_usuario');
+	Route::get('/buscar_usuario_ajax','UsuarioController@buscar_usuario_ajax');
+});
 
 
 Route::get('auth/login', 'Auth\AuthController@getLogin');
